@@ -1,0 +1,99 @@
+/* login.component.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: #006400; /* Verde escuro */
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .menu span {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .login-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .login-form h2 {
+    color: #006400; /* Verde escuro */
+    text-align: center;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* .checkbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+   */
+  .btn-entrar,
+  .btn-cadastrar {
+    background-color: #006400; /* Verde escuro */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .btn-entrar:hover,
+  .btn-cadastrar:hover {
+    background-color: #004d00; /* Verde mais escuro ao passar o mouse */
+  }
+  
+  p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  a {
+    color: #006400; /* Verde escuro */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
